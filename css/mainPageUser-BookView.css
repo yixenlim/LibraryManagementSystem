@@ -1,0 +1,23 @@
+textarea
+{
+    height: 10em;
+    resize: none;
+}
+
+/* search input */
+label input
+{
+    border: none !important; 
+    border-radius: 0.5em !important;
+}
+
+label input:focus
+{
+    outline: none;
+}
+
+/* page button */
+span a
+{
+    border-radius: 0.5em !important;
+}

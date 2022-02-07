@@ -1,0 +1,83 @@
+/* header */
+
+header
+{
+    background-color: white;
+    height:8em;
+    position: sticky; 
+    top: 0;
+}
+
+header h1
+{
+    padding: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#loginHeader
+{
+    height:6em;
+}
+
+/* navigation */
+
+.nav-item
+{
+    display:inline;
+    border: none;
+}
+
+.nav-item a:hover
+{
+	background-color: #D3D3D3;
+}
+
+/* body */
+
+#body
+{
+    background-color: #ADDCCA;
+}
+
+.loginBody
+{
+    background: linear-gradient(0deg, rgba(173, 220, 202, 0.8), rgba(173, 220, 202, 0.8)),url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyaWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+}
+
+/* container */
+
+.container
+{
+    padding-top: 4em;
+}
+
+.greenButton
+{
+    border: none;
+    color: black;
+    background-color: #ADDCCA;
+}
+
+.greenButton:hover
+{
+    background-color: #e3f3ed;
+}
+
+td
+{
+    background-color: white;
+}
+
+.hr
+{
+    border: none;
+    height: 0.3em;
+    background-color: white;
+}
+
+/* used in viewAccount */
+.overdue
+{
+    color: red;
+    font-weight: bold;
+}
